@@ -1,0 +1,27 @@
+[package]
+description = "simple guid app"
+edition = "2021"
+name = "native-gui"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = "0.16.0"
+
+[package.metadata.bundle]
+copyright = "MIT"
+icon = [
+  "icons/32x32.png",
+  "icons/128x128.png",
+  "icons/128x128@2x.png",
+  "icons/icon.icns",
+  "icons/icon.ico",
+]
+identifier = "com.guid.google.com"
+long_description = "simple guid app, with longer description"
+name = "GUIApp"
+short_description = "simple guid app"
+version = "1.0.0"
+
+[profile.release]
